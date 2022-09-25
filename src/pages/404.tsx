@@ -1,49 +1,19 @@
 import * as React from "react"
-import { Link, HeadFC } from "gatsby"
+import type { HeadFC } from "gatsby"
+import trueEntertainment from "../images/te.png"
+import "../components/styles.css"
 
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-
-const NotFoundPage = () => {
+const notFoundPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>Page not found</h1>
-      <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
+    <main> 
+      <img src={trueEntertainment}></img>    
+      <p>
+        <a href="http://www.songkick.com/artists/2355468" class="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-font-color="#191911" data-background-color="transparent">Dutch Uncles tour dates</a>
       </p>
     </main>
   )
 }
 
-export default NotFoundPage
+export default notFoundPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => <title>Dutch Uncles - Pre-order True Entertainment.  Manchester's finest band's band</title>
