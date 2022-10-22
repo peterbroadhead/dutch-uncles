@@ -6,9 +6,9 @@ body{
     justify-content: center;
     color: #f8ef24;
     padding: 96px;
-    background: #3d4e30;
+    background: #304423;
     box-shadow: 0 0 0 100px #3d4e30;
-    /* border: #f8ef24 5px solid;*/
+    border: #f8ef24 5px solid;
     margin: 1%;
     text-transform: uppercase;
 }
@@ -25,6 +25,10 @@ main * {
 
 main h1, p{
     text-align: center;
+}
+
+main h1 img{
+    max-height: 800px;
 }
 
 li{
@@ -52,7 +56,7 @@ img.du_chippy{
 .du_social{
     display: flex;
     flex: 0 0 20%;    
-    border:2px solid #f8ef24;
+    /*border:2px solid #f8ef24;*/
 }
 
 .du_social a{    
