@@ -4,8 +4,6 @@ import trueEntertainment from "../images/te-crop.png"
 import duChippy from "../images/du-chippy-outside.jpg"
 import "../components/styles.css"
 
-window.location.href = "https://www.musicglue.com/dutch-uncles/";
-
 const IndexPage = () => {
   return (    
     <main> 
@@ -35,7 +33,9 @@ const IndexPage = () => {
         <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">
           <i className={"fa fa-shopping-cart"} aria-hidden="true"></i>
         </a>
-      </p>      
+      </p>  
+      <p style={{marginBottom:`0`}}>
+        <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">Pre-Orders and Bundles</a></p>    
       <h1>
         <img src={trueEntertainment} alt={`True Entertainment Album Cover`}></img>    
       </h1>
@@ -43,6 +43,7 @@ const IndexPage = () => {
         <a href="http://www.songkick.com/artists/2355468" className="songkick-widget" data-theme="light" data-track-button="on" data-detect-style="true" data-font-color="#191911" data-background-color="transparent">Dutch Uncles tour dates</a>
         <script src="https://widget.songkick.com/widget.js"></script>    
       </p>
+      <p>Coming soon...</p>
       <p>
         <img src={duChippy} className={`du_chippy`} alt={`Dutch Uncles outside Chippy`}></img>   
       </p>
