@@ -49,6 +49,12 @@ a:hover{
     color: #3d4e30;
 }
 
+main h1 a, main h1 a:hover {
+    border: 0;    
+    background: none;
+}
+
+
 img.du_chippy{
     border: #f8ef24 3px solid;
     width: 50%;
