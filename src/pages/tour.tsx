@@ -6,7 +6,7 @@ import Tour from "../components/tour.js"
 const IndexPage = () => {
   return (    
     <main>      
-      <Tour></Tour>           
+      <Tour></Tour>  
     </main>
   )
 }

@@ -18,11 +18,8 @@ const IndexPage = () => {
           <img src={trueEntertainment} alt={`True Entertainment Album Cover`}></img>    
         </a>
         <span style={{display: "none"}}>Dutch Uncles</span>
-      </h1>      
+      </h1>   
       <Tour></Tour>           
-      <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-7r8O_c4aAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </p>
       <p>
         <img src={duChippy} className={`du_chippy`} alt={`Dutch Uncles outside Chippy`}></img>   
       </p>
