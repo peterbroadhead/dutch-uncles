@@ -3,7 +3,7 @@ import React from "react"
 function Tour() {
   return (    
     <p>
-      <iframe title="DU Tour" width="500" height="1000" src="https://dutchuncles.co.uk/tour.html"></iframe>            
+      <iframe title="DU Tour" style={{maxWidth:"500px", height:"1000px"}} src="https://dutchuncles.co.uk/tour.html"></iframe>            
     </p>
   )
 }
