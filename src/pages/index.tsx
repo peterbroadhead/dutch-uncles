@@ -17,7 +17,7 @@ const IndexPage = () => {
         <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">
           <img src={trueEntertainment} alt={`True Entertainment Album Cover`}></img>    
         </a>
-        <span style={{display: "none"}}>Dutch Uncles</span>
+        <span style={{display: "none"}}>Dutch Uncles...</span>
       </h1>   
       <Tour></Tour>           
       <p>
