@@ -12,12 +12,12 @@ const IndexPage = () => {
       <link href={`https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css`} rel="stylesheet"></link>
       <Socials></Socials>
       <p style={{marginBottom:`0`}}>
-        <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">Pre-Orders and Bundles</a></p>    
+        <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">Pre-Orders and Bundles...</a></p>    
       <h1>
         <a target="_blank"href="https://www.musicglue.com/dutch-uncles/">
           <img src={trueEntertainment} alt={`True Entertainment Album Cover`}></img>    
         </a>
-        <span style={{display: "none"}}>Dutch Uncles...</span>
+        <span style={{display: "none"}}>Dutch Uncles</span>
       </h1>   
       <Tour></Tour>           
       <p>
